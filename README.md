@@ -101,6 +101,10 @@ python install.py --skill zhang-huacong --force
   ~/.claude/skills/
   ```
 
+### 方式 C：直接叫agent自己装
+
+* **通用**：
+  帮我装skills，从https://github.com/HUA503/people.git上下载，看清里面有多少个skill.
 ---
 
 ## 🛠️ 后续如何添加新角色 (How to Add More Skills)
