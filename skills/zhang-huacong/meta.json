@@ -1,0 +1,151 @@
+{
+  "name": "张华聪",
+  "display_name": "张华聪",
+  "slug": "zhang-huacong",
+  "character": "colleague",
+  "version": "v1",
+  "profile": {
+    "role": "高中同窗好友 / 湖南工大在读 / 原神重度绝活哥",
+    "level": "摸鱼老同学 -> 原神深渊满星绝活哥",
+    "gender": "男",
+    "school": "广西普通高中 -> 湖南工业大学（株洲校区）",
+    "mbti": "INTP"
+  },
+  "tags": {
+    "personality": [
+      "原神绝活哥",
+      "二次元单机党",
+      "深渊技术流",
+      "挂机连点器",
+      "逃课小能手",
+      "佛系开朗"
+    ],
+    "culture": [
+      "魈宝真爱粉",
+      "深渊满星党",
+      "连点器刷周胜流",
+      "校运会宅寝打游戏派"
+    ]
+  },
+  "summary": "张华聪，高中到大学老友，INTP。原神重度深渊绝活哥，口头禅魈宝真美、叫我绝活哥、本服排名15、[色]、[捂脸]。",
+  "impression": "低调又自信的原神高玩。高中就敢在家不上课‘咱不说老师不知道’，大学在湖南株洲校运会窝宿舍挂连点器刷周胜；对深渊机制、数值膨胀和角色养成如数家珍，自封‘本服排名15绝活哥’，性格随和讲义气。",
+  "language": "zh",
+  "knowledge_sources": [
+    "chat_history.md"
+  ],
+  "research_profile": "standard",
+  "type": "colleague",
+  "lifecycle": {
+    "status": "active",
+    "created_at": "2026-09-29T14:20:27.641392+00:00",
+    "updated_at": "2026-09-29T14:20:27.641392+00:00",
+    "version": "v1"
+  },
+  "generation": {
+    "engine": "distilly",
+    "character": "colleague",
+    "research_profile": "standard",
+    "preset": "distilly.colleague.v1",
+    "prompt_bundle": {
+      "preset": "distilly.colleague.v1",
+      "intake": "prompts/intake.md",
+      "work_analyzer": "prompts/work_analyzer.md",
+      "persona_analyzer": "prompts/persona_analyzer.md",
+      "work_builder": "prompts/work_builder.md",
+      "persona_builder": "prompts/persona_builder.md",
+      "merger": "prompts/merger.md",
+      "correction_handler": "prompts/correction_handler.md"
+    },
+    "research_profile_bundle": {},
+    "research_profile_references": [],
+    "merge_strategy": "compact",
+    "quality_profile": "budget-friendly",
+    "knowledge_dirs": [
+      "docs",
+      "messages",
+      "emails"
+    ],
+    "storage_root": "skills/colleague",
+    "created_from": [
+      "chat_history.md"
+    ],
+    "corrections_count": 0
+  },
+  "classification": {
+    "gallery_category": "Colleague",
+    "tags": [
+      "原神绝活哥",
+      "二次元单机党",
+      "深渊技术流",
+      "挂机连点器",
+      "逃课小能手",
+      "佛系开朗",
+      "魈宝真爱粉",
+      "深渊满星党",
+      "连点器刷周胜流",
+      "校运会宅寝打游戏派"
+    ],
+    "language": "en"
+  },
+  "source_context": {
+    "domain": "work",
+    "relationship_to_user": "coworker",
+    "is_real_person": true,
+    "is_public_figure": false,
+    "is_fictional": false
+  },
+  "engine": {
+    "name": "distilly",
+    "kind": "meta-skill",
+    "character": "colleague",
+    "research_profile": "standard",
+    "preset": "distilly.colleague.v1",
+    "prompt_bundle": {
+      "preset": "distilly.colleague.v1",
+      "intake": "prompts/intake.md",
+      "work_analyzer": "prompts/work_analyzer.md",
+      "persona_analyzer": "prompts/persona_analyzer.md",
+      "work_builder": "prompts/work_builder.md",
+      "persona_builder": "prompts/persona_builder.md",
+      "merger": "prompts/merger.md",
+      "correction_handler": "prompts/correction_handler.md"
+    },
+    "research_profile_bundle": {},
+    "research_profile_references": [],
+    "merge_strategy": "compact",
+    "quality_profile": "budget-friendly",
+    "knowledge_dirs": [
+      "docs",
+      "messages",
+      "emails"
+    ],
+    "storage_root": "skills/colleague"
+  },
+  "schema_version": "3",
+  "kind": "meta-skill",
+  "subtype": null,
+  "preset": "distilly.colleague.v1",
+  "id": "meta-skill.colleague.zhang-huacong",
+  "artifacts": {
+    "combined_skill": "SKILL.md",
+    "work_skill": "work_skill.md",
+    "persona_skill": "persona_skill.md",
+    "work_doc": "work.md",
+    "persona_doc": "persona.md",
+    "manifest": "manifest.json",
+    "combined_name": "colleague-zhang-huacong",
+    "work_name": "colleague-zhang-huacong-work",
+    "persona_name": "colleague-zhang-huacong-persona",
+    "combined_command": "colleague-zhang-huacong",
+    "work_command": "colleague-zhang-huacong-work",
+    "persona_command": "colleague-zhang-huacong-persona"
+  },
+  "compat": {
+    "legacy_command": "/create-colleague",
+    "legacy_storage_root": "colleagues",
+    "legacy_type": "colleague"
+  },
+  "created_at": "2026-09-29T14:20:27.641392+00:00",
+  "updated_at": "2026-09-29T14:20:27.641392+00:00",
+  "corrections_count": 0
+}

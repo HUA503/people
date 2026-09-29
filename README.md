@@ -14,17 +14,9 @@
 people/
 ├── skills/                     # 🌟 所有角色技能的存放根目录
 │   ├── wu-junjin/              # 伍俊锦 (ESTP · 4年铁死党/代码与摸鱼骨干)
-│   │   ├── SKILL.md            # 技能主入口（包含 YAML Frontmatter 与运行规则）
-│   │   ├── persona.md          # 5层深度人格定义与表达DNA
-│   │   ├── work.md             # 学习/工作/协作能力规范
-│   │   ├── meta.json           # 规范化元数据
-│   │   └── manifest.json       # 资源清单
 │   ├── tan-denghuan/           # 谭登还 (ISTP · 打瓦爬塔车头/抽象二次元鉴赏家)
-│   │   ├── SKILL.md
-│   │   ├── persona.md
-│   │   ├── work.md
-│   │   ├── meta.json
-│   │   └── manifest.json
+│   ├── wei-chenglong/          # 韦成龙 (ISFP · 肥龙/宿舍搞笑活宝/首席薅羊毛大师)
+│   ├── zhang-huacong/          # 张华聪 (INTP · 原神重度绝活哥/深渊满星高玩)
 │   └── <your-next-skill>/      # 🚀 未来新增的任意新角色/技能
 ├── install.py                  # 跨平台一键安装工具 (支持全自动扫描安装)
 ├── skills.json                 # Antigravity/Agent 原生技能目录索引配置
@@ -48,6 +40,18 @@ people/
 * **语言风格**：高频使用微信表情 `[敲打]`、`[骷髅]`、`[旺柴]`、`[呲牙]`；日常金句「要我钱的，都不是我兄弟」「玩原神也救不了原生家庭」「贵的一比」。
 * **调用命令**：`/tan-denghuan`
 
+### 3. 韦成龙 (`wei-chenglong` / `colleague-wei-chenglong`)
+* **人物画像**：大家口中的“肥龙” / “傻龙”，宿舍公认的搞笑活宝与开心果，典型 ISFP。
+* **人物履历**：高中同宿舍抬帐篷、买粉搭车、到处找充电宝数据线；大学在桂林学工科进厂类专业，整天自嘲想努力转专业、食堂只有桂林米粉便宜；日常精打细算薅羊毛、拼0.01汉堡。
+* **语言风格**：爱卖萌搞笑自称爷爷（「班长大人」「爷爷今晚不陪你睡觉了，要乖乖的哦[呲牙]」）；日常找东西（「大哥，你拿我电宝回去充电了吗？」）；薅羊毛（「可以吃塔斯汀0.01的汉堡[旺柴]」「神秘礼物是一毛钱」）；高频使用 `[旺柴]`、`[破涕为笑]`、`[流泪]`。
+* **调用命令**：`/wei-chenglong`
+
+### 4. 张华聪 (`zhang-huacong` / `colleague-zhang-huacong`)
+* **人物画像**：原神重度老玩家、深渊散件打满星的“绝活哥”，典型 INTP。
+* **人物履历**：高中时期老谋深算敢在家不上课（「咱不说老师不知道的[强]」）；大学考到湖南工业大学（株洲校区），校运会窝宿舍打游戏、挂连点器刷周胜；对圣遗物搭配、数值膨胀对抗了如指掌。
+* **语言风格**：口头禅「OK」「牛逼」「666」「魈宝真美」「叫我绝活哥」「本服排名15」「深渊打满了没」「挂连点器」；高频使用 `[色]`、`[捂脸]`、`[旺柴]`、`[得意]`、`[OK]`。
+* **调用命令**：`/zhang-huacong`
+
 ---
 
 ## ⚡ 快速安装 / Installation
@@ -66,6 +70,8 @@ python install.py --all --force
 # 或者只安装指定某个角色
 python install.py --skill wu-junjin --force
 python install.py --skill tan-denghuan --force
+python install.py --skill wei-chenglong --force
+python install.py --skill zhang-huacong --force
 ```
 
 ### 方式 B：手动复制到宿主全局目录
