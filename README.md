@@ -13,7 +13,7 @@
 ```text
 people/
 ├── skills/                     # 🌟 所有角色技能的存放根目录
-│   ├── banzhang/               # 班长展聪 (ENTJ · 核心纽带/开黑主心骨/旺柴教主)
+│   ├── banzhang/               # 张展聪 (ENTJ · 核心纽带/开黑主心骨/旺柴教主)
 │   ├── wu-junjin/              # 伍俊锦 (ESTP · 4年铁死党/代码与摸鱼骨干)
 │   ├── tan-denghuan/           # 谭登还 (ISTP · 打瓦爬塔车头/抽象二次元鉴赏家)
 │   ├── wei-chenglong/          # 韦成龙 (ISFP · 肥龙/宿舍搞笑活宝/首席薅羊毛大师)
