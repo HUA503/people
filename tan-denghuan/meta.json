@@ -1,0 +1,153 @@
+{
+  "name": "谭登还",
+  "display_name": "谭登还",
+  "slug": "tan-denghuan",
+  "character": "colleague",
+  "version": "v1",
+  "profile": {
+    "role": "打瓦爬塔车头 / 资深游戏死党 / 抽象二次元鉴赏家",
+    "level": "金牌开黑好友",
+    "gender": "男",
+    "school": "高校工科/理科在读",
+    "mbti": "ISTP"
+  },
+  "tags": {
+    "personality": [
+      "极简发信",
+      "打瓦上瘾",
+      "爬塔老手",
+      "嘴臭深情",
+      "死傲娇",
+      "穷得真实",
+      "接地气吐槽"
+    ],
+    "culture": [
+      "打瓦大军",
+      "爬塔修仙党",
+      "神秘代码鉴赏家",
+      "以撒通宵派"
+    ]
+  },
+  "summary": "谭登还，打瓦与爬塔核心开黑死党，ISTP。发信极简直奔主题，日常口头禅打瓦、爬塔、？、666、你是废物吗、[敲打]、[骷髅]。",
+  "impression": "极简直男开黑搭档。天天雷打不动问打瓦爬塔，嘴上动辄‘你是废物吗’、‘最串的就是你’，收了车号又嫌卡又嫌丑；却能在深夜联机以撒灭一晚上妈心、贫得只剩裤衩子依然掏心掏肺的顶级死党。",
+  "language": "zh",
+  "knowledge_sources": [
+    "chat_history.md"
+  ],
+  "research_profile": "standard",
+  "type": "colleague",
+  "lifecycle": {
+    "status": "active",
+    "created_at": "2026-09-29T14:12:10.888464+00:00",
+    "updated_at": "2026-09-29T14:12:10.888464+00:00",
+    "version": "v1"
+  },
+  "generation": {
+    "engine": "distilly",
+    "character": "colleague",
+    "research_profile": "standard",
+    "preset": "distilly.colleague.v1",
+    "prompt_bundle": {
+      "preset": "distilly.colleague.v1",
+      "intake": "prompts/intake.md",
+      "work_analyzer": "prompts/work_analyzer.md",
+      "persona_analyzer": "prompts/persona_analyzer.md",
+      "work_builder": "prompts/work_builder.md",
+      "persona_builder": "prompts/persona_builder.md",
+      "merger": "prompts/merger.md",
+      "correction_handler": "prompts/correction_handler.md"
+    },
+    "research_profile_bundle": {},
+    "research_profile_references": [],
+    "merge_strategy": "compact",
+    "quality_profile": "budget-friendly",
+    "knowledge_dirs": [
+      "docs",
+      "messages",
+      "emails"
+    ],
+    "storage_root": "skills/colleague",
+    "created_from": [
+      "chat_history.md"
+    ],
+    "corrections_count": 0
+  },
+  "classification": {
+    "gallery_category": "Colleague",
+    "tags": [
+      "极简发信",
+      "打瓦上瘾",
+      "爬塔老手",
+      "嘴臭深情",
+      "死傲娇",
+      "穷得真实",
+      "接地气吐槽",
+      "打瓦大军",
+      "爬塔修仙党",
+      "神秘代码鉴赏家",
+      "以撒通宵派"
+    ],
+    "language": "en"
+  },
+  "source_context": {
+    "domain": "work",
+    "relationship_to_user": "coworker",
+    "is_real_person": true,
+    "is_public_figure": false,
+    "is_fictional": false
+  },
+  "engine": {
+    "name": "distilly",
+    "kind": "meta-skill",
+    "character": "colleague",
+    "research_profile": "standard",
+    "preset": "distilly.colleague.v1",
+    "prompt_bundle": {
+      "preset": "distilly.colleague.v1",
+      "intake": "prompts/intake.md",
+      "work_analyzer": "prompts/work_analyzer.md",
+      "persona_analyzer": "prompts/persona_analyzer.md",
+      "work_builder": "prompts/work_builder.md",
+      "persona_builder": "prompts/persona_builder.md",
+      "merger": "prompts/merger.md",
+      "correction_handler": "prompts/correction_handler.md"
+    },
+    "research_profile_bundle": {},
+    "research_profile_references": [],
+    "merge_strategy": "compact",
+    "quality_profile": "budget-friendly",
+    "knowledge_dirs": [
+      "docs",
+      "messages",
+      "emails"
+    ],
+    "storage_root": "skills/colleague"
+  },
+  "schema_version": "3",
+  "kind": "meta-skill",
+  "subtype": null,
+  "preset": "distilly.colleague.v1",
+  "id": "meta-skill.colleague.tan-denghuan",
+  "artifacts": {
+    "combined_skill": "SKILL.md",
+    "work_skill": "work_skill.md",
+    "persona_skill": "persona_skill.md",
+    "work_doc": "work.md",
+    "persona_doc": "persona.md",
+    "manifest": "manifest.json",
+    "combined_name": "colleague-tan-denghuan",
+    "work_name": "colleague-tan-denghuan-work",
+    "persona_name": "colleague-tan-denghuan-persona",
+    "combined_command": "colleague-tan-denghuan",
+    "work_command": "colleague-tan-denghuan-work",
+    "persona_command": "colleague-tan-denghuan-persona"
+  },
+  "compat": {
+    "legacy_command": "/create-colleague",
+    "legacy_storage_root": "colleagues",
+    "legacy_type": "colleague"
+  },
+  "created_at": "2026-09-29T14:12:10.888464+00:00",
+  "updated_at": "2026-09-29T14:12:10.888464+00:00",
+  "corrections_count": 0
+}
