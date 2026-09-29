@@ -1,0 +1,153 @@
+{
+  "name": "伍俊锦",
+  "display_name": "伍俊锦",
+  "slug": "wu-junjin",
+  "character": "colleague",
+  "version": "v1",
+  "profile": {
+    "role": "高中到大学4年铁死党 / 工科计算机在读 / 班级摸鱼与开黑核心",
+    "level": "理科班摸鱼组长 -> 大学工科卷党建与代码",
+    "gender": "男",
+    "school": "广西普通高中 -> 广西高校工科/计算机专业",
+    "mbti": "ESTP"
+  },
+  "tags": {
+    "personality": [
+      "铁哥们死党",
+      "嘴硬自嘲",
+      "游戏上号",
+      "八卦达人",
+      "日常互损",
+      "牛逼666",
+      "表面摆烂实则能抗"
+    ],
+    "culture": [
+      "校园偷电派",
+      "大学党建积极分子",
+      "期末链表突击党",
+      "螺蛳粉湘辣外卖派"
+    ]
+  },
+  "summary": "伍俊锦从高中到大学4年最铁死党，ESTP。从偷电摸鱼高中生到大学工科计算机/党建骨干，日常口头禅牛逼、6、上号、[捂脸]、[旺柴]。",
+  "impression": "4年无话不谈的顶级死党。嘴硬自恋，高中偷电打游戏依赖班长，大学进党建组织、焊3小时电路、突击C语言链表；日常疯狂互怼、分享八卦外卖、催着上号打瓦，关键时刻永远在场。",
+  "language": "zh",
+  "knowledge_sources": [
+    "chat_history.md"
+  ],
+  "research_profile": "standard",
+  "type": "colleague",
+  "lifecycle": {
+    "status": "active",
+    "created_at": "2026-09-29T13:58:40.444460+00:00",
+    "updated_at": "2026-09-29T13:58:40.444460+00:00",
+    "version": "v1"
+  },
+  "generation": {
+    "engine": "distilly",
+    "character": "colleague",
+    "research_profile": "standard",
+    "preset": "distilly.colleague.v1",
+    "prompt_bundle": {
+      "preset": "distilly.colleague.v1",
+      "intake": "prompts/intake.md",
+      "work_analyzer": "prompts/work_analyzer.md",
+      "persona_analyzer": "prompts/persona_analyzer.md",
+      "work_builder": "prompts/work_builder.md",
+      "persona_builder": "prompts/persona_builder.md",
+      "merger": "prompts/merger.md",
+      "correction_handler": "prompts/correction_handler.md"
+    },
+    "research_profile_bundle": {},
+    "research_profile_references": [],
+    "merge_strategy": "compact",
+    "quality_profile": "budget-friendly",
+    "knowledge_dirs": [
+      "docs",
+      "messages",
+      "emails"
+    ],
+    "storage_root": "skills/colleague",
+    "created_from": [
+      "D:\\github\\新建文件夹\\1\\聊天记录\\伍俊锦(wxid_5tx2hhg5b08522)\\伍俊锦.md"
+    ],
+    "corrections_count": 0
+  },
+  "classification": {
+    "gallery_category": "Colleague",
+    "tags": [
+      "铁哥们死党",
+      "嘴硬自嘲",
+      "游戏上号",
+      "八卦达人",
+      "日常互损",
+      "牛逼666",
+      "表面摆烂实则能抗",
+      "校园偷电派",
+      "大学党建积极分子",
+      "期末链表突击党",
+      "螺蛳粉湘辣外卖派"
+    ],
+    "language": "en"
+  },
+  "source_context": {
+    "domain": "work",
+    "relationship_to_user": "coworker",
+    "is_real_person": true,
+    "is_public_figure": false,
+    "is_fictional": false
+  },
+  "engine": {
+    "name": "distilly",
+    "kind": "meta-skill",
+    "character": "colleague",
+    "research_profile": "standard",
+    "preset": "distilly.colleague.v1",
+    "prompt_bundle": {
+      "preset": "distilly.colleague.v1",
+      "intake": "prompts/intake.md",
+      "work_analyzer": "prompts/work_analyzer.md",
+      "persona_analyzer": "prompts/persona_analyzer.md",
+      "work_builder": "prompts/work_builder.md",
+      "persona_builder": "prompts/persona_builder.md",
+      "merger": "prompts/merger.md",
+      "correction_handler": "prompts/correction_handler.md"
+    },
+    "research_profile_bundle": {},
+    "research_profile_references": [],
+    "merge_strategy": "compact",
+    "quality_profile": "budget-friendly",
+    "knowledge_dirs": [
+      "docs",
+      "messages",
+      "emails"
+    ],
+    "storage_root": "skills/colleague"
+  },
+  "schema_version": "3",
+  "kind": "meta-skill",
+  "subtype": null,
+  "preset": "distilly.colleague.v1",
+  "id": "meta-skill.colleague.wu-junjin",
+  "artifacts": {
+    "combined_skill": "SKILL.md",
+    "work_skill": "work_skill.md",
+    "persona_skill": "persona_skill.md",
+    "work_doc": "work.md",
+    "persona_doc": "persona.md",
+    "manifest": "manifest.json",
+    "combined_name": "colleague-wu-junjin",
+    "work_name": "colleague-wu-junjin-work",
+    "persona_name": "colleague-wu-junjin-persona",
+    "combined_command": "colleague-wu-junjin",
+    "work_command": "colleague-wu-junjin-work",
+    "persona_command": "colleague-wu-junjin-persona"
+  },
+  "compat": {
+    "legacy_command": "/create-colleague",
+    "legacy_storage_root": "colleagues",
+    "legacy_type": "colleague"
+  },
+  "created_at": "2026-09-29T13:58:40.444460+00:00",
+  "updated_at": "2026-09-29T13:58:40.444460+00:00",
+  "corrections_count": 0
+}
