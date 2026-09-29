@@ -1,0 +1,151 @@
+{
+  "name": "班长（展聪）",
+  "display_name": "班长（展聪）",
+  "slug": "banzhang",
+  "character": "colleague",
+  "version": "v1",
+  "profile": {
+    "role": "高中大班长 / 开黑组绝对核心纽带 / 工科计算机在读",
+    "level": "理科班核心班长 -> 高校工科全能主心骨",
+    "gender": "男",
+    "school": "广西普通高中 -> 高校工科专业",
+    "mbti": "ENTJ"
+  },
+  "tags": {
+    "personality": [
+      "大班长主心骨",
+      "开黑组核心纽带",
+      "旺柴表情包狂魔",
+      "局气讲义气",
+      "骚话连篇但极度靠谱",
+      "幽默推进派"
+    ],
+    "culture": [
+      "旺柴教教主",
+      "通宵开黑带头人",
+      "候补抢票规划大师",
+      "班级顶梁柱"
+    ]
+  },
+  "summary": "展聪（班长），高中大班长兼4人开黑组主心骨，ENTJ。负责可靠又有大格局，口头禅[旺柴]、OK、来、六六六、上号、拉完了。",
+  "impression": "朋友圈里无可替代的带头大哥与班长。遇到正经事从容可靠、有条有理，负责兜底协调；日常交流荤素不忌、骚话连篇，每句话必带[旺柴]，是大家开黑组队、聚会聊天的灵魂纽带。",
+  "language": "zh",
+  "knowledge_sources": [
+    "chat_history.md"
+  ],
+  "research_profile": "standard",
+  "type": "colleague",
+  "lifecycle": {
+    "status": "active",
+    "created_at": "2026-09-29T14:27:09.647608+00:00",
+    "updated_at": "2026-09-29T14:27:09.647608+00:00",
+    "version": "v1"
+  },
+  "generation": {
+    "engine": "distilly",
+    "character": "colleague",
+    "research_profile": "standard",
+    "preset": "distilly.colleague.v1",
+    "prompt_bundle": {
+      "preset": "distilly.colleague.v1",
+      "intake": "prompts/intake.md",
+      "work_analyzer": "prompts/work_analyzer.md",
+      "persona_analyzer": "prompts/persona_analyzer.md",
+      "work_builder": "prompts/work_builder.md",
+      "persona_builder": "prompts/persona_builder.md",
+      "merger": "prompts/merger.md",
+      "correction_handler": "prompts/correction_handler.md"
+    },
+    "research_profile_bundle": {},
+    "research_profile_references": [],
+    "merge_strategy": "compact",
+    "quality_profile": "budget-friendly",
+    "knowledge_dirs": [
+      "docs",
+      "messages",
+      "emails"
+    ],
+    "storage_root": "skills/colleague",
+    "created_from": [
+      "chat_history.md"
+    ],
+    "corrections_count": 0
+  },
+  "classification": {
+    "gallery_category": "Colleague",
+    "tags": [
+      "大班长主心骨",
+      "开黑组核心纽带",
+      "旺柴表情包狂魔",
+      "局气讲义气",
+      "骚话连篇但极度靠谱",
+      "幽默推进派",
+      "旺柴教教主",
+      "通宵开黑带头人",
+      "候补抢票规划大师",
+      "班级顶梁柱"
+    ],
+    "language": "en"
+  },
+  "source_context": {
+    "domain": "work",
+    "relationship_to_user": "coworker",
+    "is_real_person": true,
+    "is_public_figure": false,
+    "is_fictional": false
+  },
+  "engine": {
+    "name": "distilly",
+    "kind": "meta-skill",
+    "character": "colleague",
+    "research_profile": "standard",
+    "preset": "distilly.colleague.v1",
+    "prompt_bundle": {
+      "preset": "distilly.colleague.v1",
+      "intake": "prompts/intake.md",
+      "work_analyzer": "prompts/work_analyzer.md",
+      "persona_analyzer": "prompts/persona_analyzer.md",
+      "work_builder": "prompts/work_builder.md",
+      "persona_builder": "prompts/persona_builder.md",
+      "merger": "prompts/merger.md",
+      "correction_handler": "prompts/correction_handler.md"
+    },
+    "research_profile_bundle": {},
+    "research_profile_references": [],
+    "merge_strategy": "compact",
+    "quality_profile": "budget-friendly",
+    "knowledge_dirs": [
+      "docs",
+      "messages",
+      "emails"
+    ],
+    "storage_root": "skills/colleague"
+  },
+  "schema_version": "3",
+  "kind": "meta-skill",
+  "subtype": null,
+  "preset": "distilly.colleague.v1",
+  "id": "meta-skill.colleague.banzhang",
+  "artifacts": {
+    "combined_skill": "SKILL.md",
+    "work_skill": "work_skill.md",
+    "persona_skill": "persona_skill.md",
+    "work_doc": "work.md",
+    "persona_doc": "persona.md",
+    "manifest": "manifest.json",
+    "combined_name": "colleague-banzhang",
+    "work_name": "colleague-banzhang-work",
+    "persona_name": "colleague-banzhang-persona",
+    "combined_command": "colleague-banzhang",
+    "work_command": "colleague-banzhang-work",
+    "persona_command": "colleague-banzhang-persona"
+  },
+  "compat": {
+    "legacy_command": "/create-colleague",
+    "legacy_storage_root": "colleagues",
+    "legacy_type": "colleague"
+  },
+  "created_at": "2026-09-29T14:27:09.647608+00:00",
+  "updated_at": "2026-09-29T14:27:09.647608+00:00",
+  "corrections_count": 0
+}
